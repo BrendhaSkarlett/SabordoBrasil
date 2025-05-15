@@ -33,11 +33,11 @@
 
       <!-- COLUNA 1: Perfil -->
       <aside class="col-md-3 bg-light p-3 border-end">
-        <div class="text-center">
-          <img src="img/logo_sabor_do_brasil.png" class="img-fluid" alt="Logo da empresa">
-          <h4 class="mt-3">Sabor do Brasil</h4>
-          <hr style="border: 2px solid #D97014;">
-        </div>
+       <div class="text-center" id="perfil-container">
+  <img src="img/logo_sabor_do_brasil.png" class="img-fluid" alt="Logo da empresa" id="perfil-img">
+  <h4 class="mt-3" id="perfil-nome">Sabor do Brasil</h4>
+  <hr style="border: 2px solid #D97014;">
+</div>
         <div class="text-center">
           <p>Likes: <span id="total-likes">9</span></p>
           <p>Dislikes: <span id="total-dislikes">12</span></p>
@@ -54,7 +54,7 @@
             <img src="img/feijoada.jfif" class="card-img-top" alt="Feijoada Completa">
             <div class="card-body">
               <h5 class="card-title text-start">Feijoada Completa</h5>
-              <p class="card-text text-start"><small class="text-muted">Restaurante do Zé - Belo Horizonte</small></p>
+              <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Belo Horizonte</small></p>
               <div class="d-flex justify-content-start align-items-center gap-3">
                 <div class="d-flex align-items-center">
                   <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="1">
@@ -98,7 +98,7 @@
   <img src="img/tropiro.jfif" class="card-img-top" alt="Feijão Tropeiro">
   <div class="card-body">
     <h5 class="card-title text-start">Feijão Tropeiro</h5>
-    <p class="card-text text-start"><small class="text-muted"> </small></p>
+    <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
     <div class="d-flex justify-content-start align-items-center gap-3">
       <div class="d-flex align-items-center">
         <img src="img/liikee.png" width="24" class="interact-btn" data-type="like">
@@ -149,8 +149,36 @@
       <!-- COLUNA 3: Login -->
       <aside class="col-md-3 bg-light d-flex align-items-start justify-content-center p-3">
         <button id="login-btn" class="btn text-white fw-bold" style="background-color: #D97014;" data-bs-toggle="modal" data-bs-target="#loginModal">Entrar</button>
+
       </aside>
     </div>
+
+    <!-- Modal de Login -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Entrar no Sabor do Brasil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+        </div>
+        <div class="mb-3">
+          <label for="senha" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+        </div>
+        <div id="login-error" class="text-danger" style="display: none;">E-mail ou senha inválidos!</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-warning text-white fw-bold" id="login-btn-submit">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- RODAPÉ -->
     <footer class="row bg-warning text-white text-center p-2" style="background-color: #D97014;">
@@ -173,17 +201,28 @@
 
     // Função para simular o login
     function handleLogin() {
-      const email = document.getElementById('email').value;
-      const senha = document.getElementById('senha').value;
+  const email = document.getElementById('email').value;
+  const senha = document.getElementById('senha').value;
 
-      if (email === "user@sabor.com" && senha === "12345") {
-        isLoggedIn = true;
-        document.getElementById('login-error').style.display = 'none';
-        document.getElementById('loginModal').modal('hide');
-      } else {
-        document.getElementById('login-error').style.display = 'block';
-      }
-    }
+  if (email === "user@sabor.com" && senha === "12345") {
+    isLoggedIn = true;
+    document.getElementById('login-error').style.display = 'none';
+
+    // Atualiza o perfil com nome e imagem da usuária
+    document.getElementById('perfil-img').src = "img/"; // sua imagem de usuário
+    document.getElementById('perfil-nome').textContent = "Maria Oliveira";
+
+    // Esconde o botão "Entrar"
+    document.getElementById('login-btn').style.display = 'none';
+
+    // Fecha o modal corretamente
+    const modal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
+    modal.hide();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+  }
+}
+
 
     // Função para gerenciar interações
     function handleInteraction(event) {

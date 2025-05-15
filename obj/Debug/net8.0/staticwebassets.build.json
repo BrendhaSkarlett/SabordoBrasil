@@ -1,0 +1,1567 @@
+{
+  "Version": 1,
+  "Hash": "f5jRLW2zXMP3jBlOA8asKISJMQCLyu4w7r0BBXvqb28=",
+  "Source": "SabordoBrasil",
+  "BasePath": "_content/SabordoBrasil",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SabordoBrasil\\wwwroot",
+      "Source": "SabordoBrasil",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\acaraje.webp",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/acaraje#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zo3yy3r77x",
+      "Integrity": "MwVVaUv4bt4fHdmqykB3YWyAPqSbRfFJ2WT4bEDU5Ck=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\acaraje.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\comentarios.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/comentarios#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6d4kaspbhk",
+      "Integrity": "5iJh+8g28ECg31aKmwlSwAfUvjuk1O+va/8twlNPmHA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\comentarios.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\dislikee.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/dislikee#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dmcd79pgf2",
+      "Integrity": "28P/66kVHm20RL/pv/3zmAiE23uOuweRPZBozXoemw0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dislikee.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\feijoada.jfif",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/feijoada#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xs0aq0ga96",
+      "Integrity": "kfwxggggu1QiRZgpVu7iW7AZ/7rjlwqjESW20nGROxc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\feijoada.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\frangocomquiabo.jpg",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/frangocomquiabo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "95za33u229",
+      "Integrity": "kwDVj9U+tA/VXm6OeHa47aN+Jxr6vLC331pYrQCJ83s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\frangocomquiabo.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\globo.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/globo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "riug4rpxsd",
+      "Integrity": "fWHveN57RlLkt+TBJ4Hkg7q6i7/SCbSFnC8T1lWQaEA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\globo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\insta.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/insta#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wqgpoiu651",
+      "Integrity": "CCH7Nhje4iwBuiFG7PGOZBhO17SLH9++bb1hSmb3bZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\insta.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\liikee.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/liikee#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aa021cx8t3",
+      "Integrity": "DjEJdsY+dFOSXaBae65KJXCADLd5jP6SzoBq6ojMbJs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\liikee.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\logo_sabor_do_brasil.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/logo_sabor_do_brasil#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u6dev0cuo3",
+      "Integrity": "ugbHoBvw1aXOHSKvMvZ3EB6q7UTg6kSQSvgn5f9aeOI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo_sabor_do_brasil.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\tropiro.jfif",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/tropiro#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yzdhupcpj3",
+      "Integrity": "4rzgKer26/SH7O5b/Wmp8H2e5zyfjNLOg2/EXFlbesQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\tropiro.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\usuario.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/usuario#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "whvuoua6dt",
+      "Integrity": "9GrpPuemt7RnFqIJk9EipS6/eDs8tm1I1m/tKH1O6lY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\usuario.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\whats.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/whats#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "koj969cyqb",
+      "Integrity": "HGpg+bfMo239ZOla0tVEAMo+0Yv4XLvCFrd95M5z3vY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\whats.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\x.png",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "img/x#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k7i6hswh5j",
+      "Integrity": "UH2Yl82KP8/PppzFYcN9h4jGI2m/Mk0XdF0ZZNIUuEA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\x.png"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\index.html",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ykzoqs418x",
+      "Integrity": "IpRM11Jxcitw/QTB2UAl9rjLbcNxlWwKyPxDRHcxDxc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\style.css",
+      "SourceId": "SabordoBrasil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\",
+      "BasePath": "_content/SabordoBrasil",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "img/acaraje.webp",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\acaraje.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MwVVaUv4bt4fHdmqykB3YWyAPqSbRfFJ2WT4bEDU5Ck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 19:37:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MwVVaUv4bt4fHdmqykB3YWyAPqSbRfFJ2WT4bEDU5Ck="
+        }
+      ]
+    },
+    {
+      "Route": "img/acaraje.zo3yy3r77x.webp",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\acaraje.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MwVVaUv4bt4fHdmqykB3YWyAPqSbRfFJ2WT4bEDU5Ck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 19:37:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zo3yy3r77x"
+        },
+        {
+          "Name": "label",
+          "Value": "img/acaraje.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MwVVaUv4bt4fHdmqykB3YWyAPqSbRfFJ2WT4bEDU5Ck="
+        }
+      ]
+    },
+    {
+      "Route": "img/comentarios.6d4kaspbhk.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\comentarios.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5iJh+8g28ECg31aKmwlSwAfUvjuk1O+va/8twlNPmHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 18:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6d4kaspbhk"
+        },
+        {
+          "Name": "label",
+          "Value": "img/comentarios.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5iJh+8g28ECg31aKmwlSwAfUvjuk1O+va/8twlNPmHA="
+        }
+      ]
+    },
+    {
+      "Route": "img/comentarios.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\comentarios.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5iJh+8g28ECg31aKmwlSwAfUvjuk1O+va/8twlNPmHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 18:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5iJh+8g28ECg31aKmwlSwAfUvjuk1O+va/8twlNPmHA="
+        }
+      ]
+    },
+    {
+      "Route": "img/dislikee.dmcd79pgf2.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\dislikee.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"28P/66kVHm20RL/pv/3zmAiE23uOuweRPZBozXoemw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 18:04:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dmcd79pgf2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/dislikee.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-28P/66kVHm20RL/pv/3zmAiE23uOuweRPZBozXoemw0="
+        }
+      ]
+    },
+    {
+      "Route": "img/dislikee.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\dislikee.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"28P/66kVHm20RL/pv/3zmAiE23uOuweRPZBozXoemw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 18:04:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-28P/66kVHm20RL/pv/3zmAiE23uOuweRPZBozXoemw0="
+        }
+      ]
+    },
+    {
+      "Route": "img/feijoada.jfif",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\feijoada.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kfwxggggu1QiRZgpVu7iW7AZ/7rjlwqjESW20nGROxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:56:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kfwxggggu1QiRZgpVu7iW7AZ/7rjlwqjESW20nGROxc="
+        }
+      ]
+    },
+    {
+      "Route": "img/feijoada.xs0aq0ga96.jfif",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\feijoada.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kfwxggggu1QiRZgpVu7iW7AZ/7rjlwqjESW20nGROxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:56:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xs0aq0ga96"
+        },
+        {
+          "Name": "label",
+          "Value": "img/feijoada.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kfwxggggu1QiRZgpVu7iW7AZ/7rjlwqjESW20nGROxc="
+        }
+      ]
+    },
+    {
+      "Route": "img/frangocomquiabo.95za33u229.jpg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\frangocomquiabo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "244259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kwDVj9U+tA/VXm6OeHa47aN+Jxr6vLC331pYrQCJ83s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "95za33u229"
+        },
+        {
+          "Name": "label",
+          "Value": "img/frangocomquiabo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kwDVj9U+tA/VXm6OeHa47aN+Jxr6vLC331pYrQCJ83s="
+        }
+      ]
+    },
+    {
+      "Route": "img/frangocomquiabo.jpg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\frangocomquiabo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "244259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kwDVj9U+tA/VXm6OeHa47aN+Jxr6vLC331pYrQCJ83s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kwDVj9U+tA/VXm6OeHa47aN+Jxr6vLC331pYrQCJ83s="
+        }
+      ]
+    },
+    {
+      "Route": "img/globo.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\globo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fWHveN57RlLkt+TBJ4Hkg7q6i7/SCbSFnC8T1lWQaEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:57:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fWHveN57RlLkt+TBJ4Hkg7q6i7/SCbSFnC8T1lWQaEA="
+        }
+      ]
+    },
+    {
+      "Route": "img/globo.riug4rpxsd.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\globo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fWHveN57RlLkt+TBJ4Hkg7q6i7/SCbSFnC8T1lWQaEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:57:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "riug4rpxsd"
+        },
+        {
+          "Name": "label",
+          "Value": "img/globo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fWHveN57RlLkt+TBJ4Hkg7q6i7/SCbSFnC8T1lWQaEA="
+        }
+      ]
+    },
+    {
+      "Route": "img/insta.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\insta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CCH7Nhje4iwBuiFG7PGOZBhO17SLH9++bb1hSmb3bZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CCH7Nhje4iwBuiFG7PGOZBhO17SLH9++bb1hSmb3bZQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/insta.wqgpoiu651.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\insta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CCH7Nhje4iwBuiFG7PGOZBhO17SLH9++bb1hSmb3bZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wqgpoiu651"
+        },
+        {
+          "Name": "label",
+          "Value": "img/insta.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CCH7Nhje4iwBuiFG7PGOZBhO17SLH9++bb1hSmb3bZQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/liikee.aa021cx8t3.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\liikee.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DjEJdsY+dFOSXaBae65KJXCADLd5jP6SzoBq6ojMbJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 17:55:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aa021cx8t3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/liikee.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DjEJdsY+dFOSXaBae65KJXCADLd5jP6SzoBq6ojMbJs="
+        }
+      ]
+    },
+    {
+      "Route": "img/liikee.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\liikee.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DjEJdsY+dFOSXaBae65KJXCADLd5jP6SzoBq6ojMbJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 17:55:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DjEJdsY+dFOSXaBae65KJXCADLd5jP6SzoBq6ojMbJs="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo_sabor_do_brasil.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\logo_sabor_do_brasil.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugbHoBvw1aXOHSKvMvZ3EB6q7UTg6kSQSvgn5f9aeOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:19:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugbHoBvw1aXOHSKvMvZ3EB6q7UTg6kSQSvgn5f9aeOI="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo_sabor_do_brasil.u6dev0cuo3.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\logo_sabor_do_brasil.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugbHoBvw1aXOHSKvMvZ3EB6q7UTg6kSQSvgn5f9aeOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:19:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u6dev0cuo3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo_sabor_do_brasil.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugbHoBvw1aXOHSKvMvZ3EB6q7UTg6kSQSvgn5f9aeOI="
+        }
+      ]
+    },
+    {
+      "Route": "img/tropiro.jfif",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\tropiro.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4rzgKer26/SH7O5b/Wmp8H2e5zyfjNLOg2/EXFlbesQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4rzgKer26/SH7O5b/Wmp8H2e5zyfjNLOg2/EXFlbesQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/tropiro.yzdhupcpj3.jfif",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\tropiro.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4rzgKer26/SH7O5b/Wmp8H2e5zyfjNLOg2/EXFlbesQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yzdhupcpj3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/tropiro.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4rzgKer26/SH7O5b/Wmp8H2e5zyfjNLOg2/EXFlbesQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/usuario.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\usuario.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9GrpPuemt7RnFqIJk9EipS6/eDs8tm1I1m/tKH1O6lY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 18:17:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9GrpPuemt7RnFqIJk9EipS6/eDs8tm1I1m/tKH1O6lY="
+        }
+      ]
+    },
+    {
+      "Route": "img/usuario.whvuoua6dt.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\usuario.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9GrpPuemt7RnFqIJk9EipS6/eDs8tm1I1m/tKH1O6lY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 18:17:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "whvuoua6dt"
+        },
+        {
+          "Name": "label",
+          "Value": "img/usuario.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9GrpPuemt7RnFqIJk9EipS6/eDs8tm1I1m/tKH1O6lY="
+        }
+      ]
+    },
+    {
+      "Route": "img/whats.koj969cyqb.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\whats.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HGpg+bfMo239ZOla0tVEAMo+0Yv4XLvCFrd95M5z3vY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:47:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "koj969cyqb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/whats.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HGpg+bfMo239ZOla0tVEAMo+0Yv4XLvCFrd95M5z3vY="
+        }
+      ]
+    },
+    {
+      "Route": "img/whats.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\whats.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HGpg+bfMo239ZOla0tVEAMo+0Yv4XLvCFrd95M5z3vY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:47:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HGpg+bfMo239ZOla0tVEAMo+0Yv4XLvCFrd95M5z3vY="
+        }
+      ]
+    },
+    {
+      "Route": "img/x.k7i6hswh5j.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\x.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UH2Yl82KP8/PppzFYcN9h4jGI2m/Mk0XdF0ZZNIUuEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:50:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7i6hswh5j"
+        },
+        {
+          "Name": "label",
+          "Value": "img/x.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UH2Yl82KP8/PppzFYcN9h4jGI2m/Mk0XdF0ZZNIUuEA="
+        }
+      ]
+    },
+    {
+      "Route": "img/x.png",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\x.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UH2Yl82KP8/PppzFYcN9h4jGI2m/Mk0XdF0ZZNIUuEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 17:50:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UH2Yl82KP8/PppzFYcN9h4jGI2m/Mk0XdF0ZZNIUuEA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IpRM11Jxcitw/QTB2UAl9rjLbcNxlWwKyPxDRHcxDxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 18:18:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IpRM11Jxcitw/QTB2UAl9rjLbcNxlWwKyPxDRHcxDxc="
+        }
+      ]
+    },
+    {
+      "Route": "index.ykzoqs418x.html",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IpRM11Jxcitw/QTB2UAl9rjLbcNxlWwKyPxDRHcxDxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 18:18:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ykzoqs418x"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IpRM11Jxcitw/QTB2UAl9rjLbcNxlWwKyPxDRHcxDxc="
+        }
+      ]
+    },
+    {
+      "Route": "style.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 17:33:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 17:33:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    }
+  ]
+}

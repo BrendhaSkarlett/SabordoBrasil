@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\acaraje.webp",
+      "PackagePath": "staticwebassets\\img\\acaraje.webp"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\comentarios.png",
+      "PackagePath": "staticwebassets\\img\\comentarios.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\dislikee.png",
+      "PackagePath": "staticwebassets\\img\\dislikee.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\feijoada.jfif",
+      "PackagePath": "staticwebassets\\img\\feijoada.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\frangocomquiabo.jpg",
+      "PackagePath": "staticwebassets\\img\\frangocomquiabo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\globo.png",
+      "PackagePath": "staticwebassets\\img\\globo.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\insta.png",
+      "PackagePath": "staticwebassets\\img\\insta.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\liikee.png",
+      "PackagePath": "staticwebassets\\img\\liikee.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\logo_sabor_do_brasil.png",
+      "PackagePath": "staticwebassets\\img\\logo_sabor_do_brasil.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\tropiro.jfif",
+      "PackagePath": "staticwebassets\\img\\tropiro.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\usuario.png",
+      "PackagePath": "staticwebassets\\img\\usuario.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\whats.png",
+      "PackagePath": "staticwebassets\\img\\whats.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\img\\x.png",
+      "PackagePath": "staticwebassets\\img\\x.png"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\brendha\\SabordoBrasil\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SabordoBrasil.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SabordoBrasil.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SabordoBrasil.props",
+      "PackagePath": "build\\SabordoBrasil.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SabordoBrasil.props",
+      "PackagePath": "buildMultiTargeting\\SabordoBrasil.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SabordoBrasil.props",
+      "PackagePath": "buildTransitive\\SabordoBrasil.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
