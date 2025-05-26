@@ -170,7 +170,7 @@
           <label for="senha" class="form-label">Senha</label>
           <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
         </div>
-        <div id="login-error" class="text-danger" style="display: none;">E-mail ou senha inválidos!</div>
+        <div id="login-error" class="text-danger" style="display: none;">Usuário ou senha incorreto</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
@@ -199,17 +199,34 @@
   <script>
     let isLoggedIn = false;  // Simulando o estado de login
 
-    // Função para simular o login
+    // Função para simular o login 
     function handleLogin() {
-  const email = document.getElementById('email').value;
-  const senha = document.getElementById('senha').value;
+  const emailInput = document.getElementById('email');
+  const senhaInput = document.getElementById('senha');
+  const email = emailInput.value;
+  const senha = senhaInput.value;
+  let erro = false;
 
-  if (email === "user@sabor.com" && senha === "12345") {
+  // Remove estados anteriores
+  emailInput.classList.remove('is-invalid');
+  senhaInput.classList.remove('is-invalid');
+
+  // Validação simples
+  if (email !== "user123@gmail.com.br") {
+    emailInput.classList.add('is-invalid');
+    erro = true;
+  }
+  if (senha !== "12345") {
+    senhaInput.classList.add('is-invalid');
+    erro = true;
+  }
+
+  if (!erro) {
     isLoggedIn = true;
     document.getElementById('login-error').style.display = 'none';
 
     // Atualiza o perfil com nome e imagem da usuária
-    document.getElementById('perfil-img').src = "img/"; // sua imagem de usuário
+    document.getElementById('perfil-img').src = ""; // sua imagem de usuário
     document.getElementById('perfil-nome').textContent = "Maria Oliveira";
 
     // Esconde o botão "Entrar"
