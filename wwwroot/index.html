@@ -72,72 +72,116 @@
             </div>
           </div>
 
-          <!-- Card 2 -->
-          <div class="card mb-3" id="post-2">
+            <!-- Card 2 -->
+            <div class="card mb-3" id="post-2"></div>
             <img src="img/frangocomquiabo.jpg" class="card-img-top" alt="Frango com Quiabo">
             <div class="card-body">
               <h5 class="card-title text-start">Frango com Quiabo</h5>
               <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
-              <div class="d-flex justify-content-start align-items-center gap-3">
-                <div class="d-flex align-items-center">
-                  <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="2">
-                  <span class="ms-1" id="like-count-2">20</span>
+              <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
+              <div class="d-flex align-items-center">
+                <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="2">
+                <span class="ms-1" id="like-count-2">20</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="2">
+                <span class="ms-1" id="dislike-count-2">1</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="2">
+                <span class="ms-1" id="comment-count-2">8</span>
+              </div>
+              </div>
+              <!-- Área de comentários -->
+              <div id="comments-2" class="mb-2"></div>
+              <div class="input-group">
+              <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-2">
+              <button class="btn btn-warning text-white" type="button" onclick="addComment(2)">Comentar</button>
+              </div>
+            </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card mb-3" id="post-3">
+              <img src="img/tropiro.jfif" class="card-img-top" alt="Feijão Tropeiro">
+              <div class="card-body">
+                <h5 class="card-title text-start">Feijão Tropeiro</h5>
+                <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
+                <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
+                  <div class="d-flex align-items-center">
+                    <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="3">
+                    <span class="ms-1" id="like-count-3">20</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="3">
+                    <span class="ms-1" id="dislike-count-3">1</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="3">
+                    <span class="ms-1" id="comment-count-3">8</span>
+                  </div>
                 </div>
-                <div class="d-flex align-items-center">
-                  <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="2">
-                  <span class="ms-1" id="dislike-count-2">1</span>
-                </div>
-                <div class="d-flex align-items-center">
-                  <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="2">
-                  <span class="ms-1" id="comment-count-2">8</span>
+                <!-- Área de comentários -->
+                <div id="comments-3" class="mb-2"></div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-3">
+                  <button class="btn btn-warning text-white" type="button" onclick="addComment(3)">Comentar</button>
                 </div>
               </div>
             </div>
-            <!-- Card 3 -->
-<div class="card mb-3">
-  <img src="img/tropiro.jfif" class="card-img-top" alt="Feijão Tropeiro">
-  <div class="card-body">
-    <h5 class="card-title text-start">Feijão Tropeiro</h5>
-    <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
-    <div class="d-flex justify-content-start align-items-center gap-3">
-      <div class="d-flex align-items-center">
-        <img src="img/liikee.png" width="24" class="interact-btn" data-type="like">
-        <span class="ms-1">20</span>
-      </div>
-      <div class="d-flex align-items-center">
-        <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike">
-        <span class="ms-1">1</span>
-      </div>
-      <div class="d-flex align-items-center">
-        <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment">
-        <span class="ms-1">8</span>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Card 4 -->
-<div class="card mb-3">
+<div class="card mb-3" id="post-4"></div>
   <img src="img/acaraje.webp" class="card-img-top" alt="Acarajé">
   <div class="card-body">
     <h5 class="card-title text-start">Acarajé</h5>
     <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Bahia</small></p>
-    <div class="d-flex justify-content-start align-items-center gap-3">
+    <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
       <div class="d-flex align-items-center">
-        <img src="img/liikee.png" width="24" class="interact-btn" data-type="like">
-        <span class="ms-1">20</span>
+        <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="4">
+        <span class="ms-1" id="like-count-4">20</span>
       </div>
       <div class="d-flex align-items-center">
-        <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike">
-        <span class="ms-1">1</span>
+        <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="4">
+        <span class="ms-1" id="dislike-count-4">1</span>
       </div>
       <div class="d-flex align-items-center">
-        <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment">
-        <span class="ms-1">8</span>
+        <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="4">
+        <span class="ms-1" id="comment-count-4">8</span>
       </div>
+    </div>
+    <!-- Área de comentários -->
+    <div id="comments-4" class="mb-2"></div>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-4">
+      <button class="btn btn-warning text-white" type="button" onclick="addComment(4)">Comentar</button>
     </div>
   </div>
 </div>
+
+<script>
+  // Função para adicionar comentário
+  function addComment(postId) {
+    if (!isLoggedIn) {
+      new bootstrap.Modal(document.getElementById('loginModal')).show();
+      return;
+    }
+    const input = document.getElementById(`comment-input-${postId}`);
+    const commentsDiv = document.getElementById(`comments-${postId}`);
+    const commentText = input.value.trim();
+    if (commentText) {
+      const commentElem = document.createElement('div');
+      commentElem.className = "border rounded p-2 mb-1 bg-light";
+      commentElem.textContent = commentText;
+      commentsDiv.appendChild(commentElem);
+
+      // Atualiza contador de comentários
+      const countSpan = document.getElementById(`comment-count-${postId}`);
+      countSpan.textContent = parseInt(countSpan.textContent) + 1;
+
+      input.value = "";
+    }
+  }
+</script>
 
           </div>
 
@@ -212,11 +256,11 @@
   senhaInput.classList.remove('is-invalid');
 
   // Validação simples
-  if (email !== "user123@gmail.com.br") {
+  if (email !== "emily123@gmail.com.br") {
     emailInput.classList.add('is-invalid');
     erro = true;
   }
-  if (senha !== "12345") {
+  if (senha !== "123") {
     senhaInput.classList.add('is-invalid');
     erro = true;
   }
@@ -226,8 +270,8 @@
     document.getElementById('login-error').style.display = 'none';
 
     // Atualiza o perfil com nome e imagem da usuária
-    document.getElementById('perfil-img').src = ""; // sua imagem de usuário
-    document.getElementById('perfil-nome').textContent = "Maria Oliveira";
+    document.getElementById('perfil-img').src = "img/Emily Menezes.jfif";
+    document.getElementById('perfil-nome').textContent = "Emily Menezes";
 
     // Esconde o botão "Entrar"
     document.getElementById('login-btn').style.display = 'none';
@@ -236,7 +280,10 @@
     const modal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
     modal.hide();
   } else {
-    document.getElementById('login-error').style.display = 'block';
+    // Exibe mensagem de erro
+    const erroDiv = document.getElementById('login-error');
+    erroDiv.textContent = 'Usuário ou senha incorreto';
+    erroDiv.style.display = 'block';
   }
 }
 
