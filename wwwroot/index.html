@@ -4,40 +4,41 @@
   <meta charset="UTF-8">
   <title>Sabor do Brasil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
-
-  <!-- Estilo personalizado -->
   <style>
     .card-img-top {
       max-height: 250px;
       object-fit: cover;
     }
-
     .interact-btn {
       cursor: pointer;
       margin-right: 6px;
     }
-
     .card-title {
       font-weight: bold;
+    }
+    .edit-btn {
+      background: #D97014 !important;
+      border-radius: 3px;
+      color: #fff !important;
+    }
+    .delete-btn {
+      background: #fff !important;
+      color: #FF0000 !important;
     }
   </style>
 </head>
 <body>
-  <!-- Container Principal -->
-  <d class="container-fluid min-vh-100 d-flex flex-column">
+  <div class="container-fluid min-vh-100 d-flex flex-column">
     <div class="row flex-grow-1">
-
       <!-- COLUNA 1: Perfil -->
       <aside class="col-md-3 bg-light p-3 border-end">
-       <div class="text-center" id="perfil-container">
-  <img src="img/logo_sabor_do_brasil.png" class="img-fluid" alt="Logo da empresa" id="perfil-img">
-  <h4 class="mt-3" id="perfil-nome">Sabor do Brasil</h4>
-  <hr style="border: 2px solid #D97014;">
-</div>
+        <div class="text-center" id="perfil-container">
+          <img src="img/logo_sabor_do_brasil.png" class="img-fluid" alt="Logo da empresa" id="perfil-img">
+          <h4 class="mt-3" id="perfil-nome">Sabor do Brasil</h4>
+          <hr style="border: 2px solid #D97014;">
+        </div>
         <div class="text-center">
           <p>Likes: <span id="total-likes">9</span></p>
           <p>Dislikes: <span id="total-dislikes">12</span></p>
@@ -47,7 +48,6 @@
       <!-- COLUNA 2: Publicações -->
       <main class="col-md-6 p-3 border" style="border-color: #C2BEBE;">
         <h2 class="text-center text-black">Publicações</h2>
-
         <div id="posts">
           <!-- Card 1 -->
           <div class="card mb-3" id="post-1">
@@ -69,160 +69,149 @@
                   <span class="ms-1" id="comment-count-1">5</span>
                 </div>
               </div>
+              <!-- Área de comentários e input -->
+              <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-1" oninput="toggleComentarBtn(1)">
+                <button class="btn fw-bold" style="background-color:#D97014; color:#fff;" type="button" id="comentar-btn-1" onclick="addComment(1)" disabled>Comentar</button>
+              </div>
+              <div id="comments-1" class="mb-2"></div>
             </div>
           </div>
-
-            <!-- Card 2 -->
-            <div class="card mb-3" id="post-2"></div>
+          <!-- Card 2 -->
+          <div class="card mb-3" id="post-2">
             <img src="img/frangocomquiabo.jpg" class="card-img-top" alt="Frango com Quiabo">
             <div class="card-body">
               <h5 class="card-title text-start">Frango com Quiabo</h5>
               <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
               <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
-              <div class="d-flex align-items-center">
-                <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="2">
-                <span class="ms-1" id="like-count-2">20</span>
+                <div class="d-flex align-items-center">
+                  <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="2">
+                  <span class="ms-1" id="like-count-2">20</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="2">
+                  <span class="ms-1" id="dislike-count-2">1</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="2">
+                  <span class="ms-1" id="comment-count-2">8</span>
+                </div>
               </div>
-              <div class="d-flex align-items-center">
-                <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="2">
-                <span class="ms-1" id="dislike-count-2">1</span>
+              <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-2" oninput="toggleComentarBtn(2)">
+                <button class="btn fw-bold" style="background-color:#D97014; color:#fff;" type="button" id="comentar-btn-2" onclick="addComment(2)" disabled>Comentar</button>
               </div>
-              <div class="d-flex align-items-center">
-                <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="2">
-                <span class="ms-1" id="comment-count-2">8</span>
-              </div>
-              </div>
-              <!-- Área de comentários -->
               <div id="comments-2" class="mb-2"></div>
-              <div class="input-group">
-              <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-2">
-              <button class="btn btn-warning text-white" type="button" onclick="addComment(2)">Comentar</button>
-              </div>
             </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="card mb-3" id="post-3">
-              <img src="img/tropiro.jfif" class="card-img-top" alt="Feijão Tropeiro">
-              <div class="card-body">
-                <h5 class="card-title text-start">Feijão Tropeiro</h5>
-                <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
-                <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
-                  <div class="d-flex align-items-center">
-                    <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="3">
-                    <span class="ms-1" id="like-count-3">20</span>
-                  </div>
-                  <div class="d-flex align-items-center">
-                    <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="3">
-                    <span class="ms-1" id="dislike-count-3">1</span>
-                  </div>
-                  <div class="d-flex align-items-center">
-                    <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="3">
-                    <span class="ms-1" id="comment-count-3">8</span>
-                  </div>
-                </div>
-                <!-- Área de comentários -->
-                <div id="comments-3" class="mb-2"></div>
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-3">
-                  <button class="btn btn-warning text-white" type="button" onclick="addComment(3)">Comentar</button>
-                </div>
-              </div>
-            </div>
-
-<!-- Card 4 -->
-<div class="card mb-3" id="post-4"></div>
-  <img src="img/acaraje.webp" class="card-img-top" alt="Acarajé">
-  <div class="card-body">
-    <h5 class="card-title text-start">Acarajé</h5>
-    <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Bahia</small></p>
-    <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
-      <div class="d-flex align-items-center">
-        <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="4">
-        <span class="ms-1" id="like-count-4">20</span>
-      </div>
-      <div class="d-flex align-items-center">
-        <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="4">
-        <span class="ms-1" id="dislike-count-4">1</span>
-      </div>
-      <div class="d-flex align-items-center">
-        <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="4">
-        <span class="ms-1" id="comment-count-4">8</span>
-      </div>
-    </div>
-    <!-- Área de comentários -->
-    <div id="comments-4" class="mb-2"></div>
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-4">
-      <button class="btn btn-warning text-white" type="button" onclick="addComment(4)">Comentar</button>
-    </div>
-  </div>
-</div>
-
-<script>
-  // Função para adicionar comentário
-  function addComment(postId) {
-    if (!isLoggedIn) {
-      new bootstrap.Modal(document.getElementById('loginModal')).show();
-      return;
-    }
-    const input = document.getElementById(`comment-input-${postId}`);
-    const commentsDiv = document.getElementById(`comments-${postId}`);
-    const commentText = input.value.trim();
-    if (commentText) {
-      const commentElem = document.createElement('div');
-      commentElem.className = "border rounded p-2 mb-1 bg-light";
-      commentElem.textContent = commentText;
-      commentsDiv.appendChild(commentElem);
-
-      // Atualiza contador de comentários
-      const countSpan = document.getElementById(`comment-count-${postId}`);
-      countSpan.textContent = parseInt(countSpan.textContent) + 1;
-
-      input.value = "";
-    }
-  }
-</script>
-
           </div>
-
-          <!-- Outros cards podem ser adicionados aqui... -->
-
+          <!-- Card 3 -->
+          <div class="card mb-3" id="post-3">
+            <img src="img/tropiro.jfif" class="card-img-top" alt="Feijão Tropeiro">
+            <div class="card-body">
+              <h5 class="card-title text-start">Feijão Tropeiro</h5>
+              <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
+              <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
+                <div class="d-flex align-items-center">
+                  <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="3">
+                  <span class="ms-1" id="like-count-3">20</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="3">
+                  <span class="ms-1" id="dislike-count-3">1</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="3">
+                  <span class="ms-1" id="comment-count-3">8</span>
+                </div>
+              </div>
+              <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-3" oninput="toggleComentarBtn(3)">
+                <button class="btn fw-bold" style="background-color:#D97014; color:#fff;" type="button" id="comentar-btn-3" onclick="addComment(3)" disabled>Comentar</button>
+              </div>
+              <div id="comments-3" class="mb-2"></div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="card mb-3" id="post-4">
+            <img src="img/acaraje.webp" class="card-img-top" alt="Acarajé">
+            <div class="card-body">
+              <h5 class="card-title text-start">Acarajé</h5>
+              <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Bahia</small></p>
+              <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
+                <div class="d-flex align-items-center">
+                  <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="4">
+                  <span class="ms-1" id="like-count-4">20</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img src="img/dislikee.png" width="24" class="interact-btn" data-type="dislike" data-post="4">
+                  <span class="ms-1" id="dislike-count-4">1</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img src="img/comentarios.png" width="24" class="interact-btn" data-type="comment" data-post="4">
+                  <span class="ms-1" id="comment-count-4">8</span>
+                </div>
+              </div>
+              <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Escreva um comentário..." id="comment-input-4" oninput="toggleComentarBtn(4)">
+                <button class="btn fw-bold" style="background-color:#D97014; color:#fff;" type="button" id="comentar-btn-4" onclick="addComment(4)" disabled>Comentar</button>
+              </div>
+              <div id="comments-4" class="mb-2"></div>
+            </div>
+          </div>
         </div>
       </main>
 
       <!-- COLUNA 3: Login -->
       <aside class="col-md-3 bg-light d-flex align-items-start justify-content-center p-3">
         <button id="login-btn" class="btn text-white fw-bold" style="background-color: #D97014;" data-bs-toggle="modal" data-bs-target="#loginModal">Entrar</button>
-
       </aside>
     </div>
 
     <!-- Modal de Login -->
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="loginModalLabel">Entrar no Sabor do Brasil</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-3">
-          <label for="email" class="form-label">E-mail</label>
-          <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Entrar no Sabor do Brasil</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="mb-3">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+            </div>
+            <div id="login-error" class="text-danger" style="display: none;">Usuário ou senha incorreto</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" style="border:2px solid #D97014; color:#D97014; background:transparent;" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn fw-bold" style="background-color:#D97014; color:#fff;" id="login-btn-submit">Entrar</button>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="senha" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
-        </div>
-        <div id="login-error" class="text-danger" style="display: none;">Usuário ou senha incorreto</div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-warning text-white fw-bold" id="login-btn-submit">Entrar</button>
       </div>
     </div>
-  </div>
-</div>
+
+    <!-- Modal de Confirmação de Exclusão de Comentário -->
+    <div class="modal fade" id="deleteCommentModal" tabindex="-1" aria-labelledby="deleteCommentModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="deleteCommentModalLabel">Excluir Comentário</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          </div>
+          <div class="modal-body">
+            Tem certeza que deseja excluir este comentário?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" style="border:2px solid #D97014; color:#D97014; background:transparent;" data-bs-dismiss="modal">Não</button>
+            <button type="button" class="btn fw-bold" style="background-color:#D97014; color:#fff;" id="confirm-delete-btn">Sim</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- RODAPÉ -->
     <footer class="row bg-warning text-white text-center p-2" style="background-color: #D97014;">
@@ -235,8 +224,7 @@
         <span>Copyright - 2024</span>
       </div>
     </footer>
- 
-  
+  </div>
 
   <!-- Bootstrap JS + Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -245,48 +233,150 @@
 
     // Função para simular o login 
     function handleLogin() {
-  const emailInput = document.getElementById('email');
-  const senhaInput = document.getElementById('senha');
-  const email = emailInput.value;
-  const senha = senhaInput.value;
-  let erro = false;
+      const emailInput = document.getElementById('email');
+      const senhaInput = document.getElementById('senha');
+      const email = emailInput.value;
+      const senha = senhaInput.value;
+      let erro = false;
 
-  // Remove estados anteriores
-  emailInput.classList.remove('is-invalid');
-  senhaInput.classList.remove('is-invalid');
+      // Remove estados anteriores
+      emailInput.classList.remove('is-invalid');
+      senhaInput.classList.remove('is-invalid');
 
-  // Validação simples
-  if (email !== "emily123@gmail.com.br") {
-    emailInput.classList.add('is-invalid');
-    erro = true;
-  }
-  if (senha !== "123") {
-    senhaInput.classList.add('is-invalid');
-    erro = true;
-  }
+      // Validação simples
+      if (email !== "emily123@gmail.com.br") {
+        emailInput.classList.add('is-invalid');
+        erro = true;
+      }
+      if (senha !== "123") {
+        senhaInput.classList.add('is-invalid');
+        erro = true;
+      }
 
-  if (!erro) {
-    isLoggedIn = true;
-    document.getElementById('login-error').style.display = 'none';
+      if (!erro) {
+        isLoggedIn = true;
+        document.getElementById('login-error').style.display = 'none';
 
-    // Atualiza o perfil com nome e imagem da usuária
-    document.getElementById('perfil-img').src = "img/Emily Menezes.jfif";
-    document.getElementById('perfil-nome').textContent = "Emily Menezes";
+        // Atualiza o perfil com nome e imagem da usuária
+        document.getElementById('perfil-img').src = "img/Emily Menezes.jfif";
+        document.getElementById('perfil-nome').textContent = "Emily Menezes";
 
-    // Esconde o botão "Entrar"
-    document.getElementById('login-btn').style.display = 'none';
+        // Esconde o botão "Entrar"
+        document.getElementById('login-btn').style.display = 'none';
 
-    // Fecha o modal corretamente
-    const modal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
-    modal.hide();
-  } else {
-    // Exibe mensagem de erro
-    const erroDiv = document.getElementById('login-error');
-    erroDiv.textContent = 'Usuário ou senha incorreto';
-    erroDiv.style.display = 'block';
-  }
-}
+        // Fecha o modal corretamente
+        const modal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
+        modal.hide();
+        atualizarLikesDislikesGerais();
+      } else {
+        // Exibe mensagem de erro
+        const erroDiv = document.getElementById('login-error');
+        erroDiv.textContent = 'Usuário ou senha incorreto';
+        erroDiv.style.display = 'block';
+      }
+    }
 
+    // Habilita/desabilita o botão comentar conforme o campo
+    function toggleComentarBtn(postId) {
+      const input = document.getElementById(`comment-input-${postId}`);
+      const btn = document.getElementById(`comentar-btn-${postId}`);
+      btn.disabled = input.value.trim() === "";
+    }
+
+    let commentToDelete = null;
+
+    // Adiciona comentário com edição e exclusão
+    function addComment(postId) {
+      if (!isLoggedIn) {
+        new bootstrap.Modal(document.getElementById('loginModal')).show();
+        return;
+      }
+      const input = document.getElementById(`comment-input-${postId}`);
+      const commentsDiv = document.getElementById(`comments-${postId}`);
+      const commentText = input.value.trim();
+      if (commentText) {
+        // Cria o elemento do comentário
+        const commentElem = document.createElement('div');
+        commentElem.className = "border rounded p-2 mb-1 bg-light d-flex justify-content-between align-items-start";
+        // Nome do usuário simulado
+        const nomeUsuario = document.getElementById('perfil-nome').textContent;
+        commentElem.innerHTML = `
+          <span><strong>${nomeUsuario}:</strong> <span class="comment-text">${commentText}</span></span>
+          <div>
+            <img src="img/lapis.png" width="20" class="ms-2 edit-btn" style="cursor:pointer; background:#D97014; border-radius:3px; color:#fff;" title="Editar comentário">
+            <img src="img/lixeira_deletar.svg" width="20" class="ms-2 delete-btn" style="cursor:pointer; background:#fff; color:#FF0000;" title="Excluir comentário">
+          </div>
+        `;
+        commentsDiv.appendChild(commentElem);
+
+        // Atualiza contador de comentários
+        const countSpan = document.getElementById(`comment-count-${postId}`);
+        countSpan.textContent = parseInt(countSpan.textContent) + 1;
+
+        input.value = "";
+        toggleComentarBtn(postId);
+
+        // Evento de edição
+        commentElem.querySelector('.edit-btn').onclick = function() {
+          enableEditComment(commentElem, postId, nomeUsuario);
+        };
+
+        // Evento de exclusão
+        commentElem.querySelector('.delete-btn').onclick = function() {
+          commentToDelete = { elem: commentElem, postId: postId };
+          new bootstrap.Modal(document.getElementById('deleteCommentModal')).show();
+        };
+      }
+    }
+
+    // Habilita edição do comentário
+    function enableEditComment(commentElem, postId, nomeUsuario) {
+      const textSpan = commentElem.querySelector('.comment-text');
+      const oldText = textSpan.textContent;
+      textSpan.innerHTML = `<input type="text" class="form-control form-control-sm d-inline w-75" value="${oldText}" id="edit-input">`;
+      const updateBtn = document.createElement('button');
+      updateBtn.textContent = 'Atualizar';
+      updateBtn.className = 'btn btn-sm fw-bold ms-2';
+      updateBtn.style.backgroundColor = '#D97014';
+      updateBtn.style.color = '#fff';
+      updateBtn.style.float = 'right';
+      updateBtn.onclick = function() {
+        const newText = commentElem.querySelector('#edit-input').value.trim();
+        if (newText) {
+          textSpan.textContent = newText;
+          updateBtn.remove();
+          // Aqui você pode persistir a edição no banco/localStorage se desejar
+        }
+      };
+      commentElem.appendChild(updateBtn);
+    }
+
+    // Evento do botão "Sim" do modal de exclusão
+    document.getElementById('confirm-delete-btn').onclick = function() {
+      if (commentToDelete) {
+        // Remove o comentário do DOM
+        commentToDelete.elem.remove();
+        // Atualiza contador de comentários
+        const countSpan = document.getElementById(`comment-count-${commentToDelete.postId}`);
+        countSpan.textContent = Math.max(0, parseInt(countSpan.textContent) - 1);
+        // Aqui você pode persistir a exclusão no banco/localStorage se desejar
+        commentToDelete = null;
+        // Fecha o modal
+        const modal = bootstrap.Modal.getInstance(document.getElementById('deleteCommentModal'));
+        modal.hide();
+      }
+    };
+
+    function atualizarLikesDislikesGerais() {
+      let totalLikes = 0;
+      let totalDislikes = 0;
+      for (let i = 1; i <= 4; i++) {
+        totalLikes += parseInt(document.getElementById(`like-count-${i}`).textContent);
+        totalDislikes += parseInt(document.getElementById(`dislike-count-${i}`).textContent);
+      }
+      document.getElementById('total-likes').textContent = totalLikes;
+      document.getElementById('total-dislikes').textContent = totalDislikes;
+    }
 
     // Função para gerenciar interações
     function handleInteraction(event) {
@@ -308,6 +398,7 @@
       }
 
       countElement.textContent = count;
+      atualizarLikesDislikesGerais();
     }
 
     // Adicionando ouvintes de evento aos botões de interação
