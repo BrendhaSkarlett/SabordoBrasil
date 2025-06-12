@@ -54,7 +54,7 @@
             <img src="img/feijoada.jfif" class="card-img-top" alt="Feijoada Completa">
             <div class="card-body">
               <h5 class="card-title text-start">Feijoada Completa</h5>
-              <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Belo Horizonte</small></p>
+              <p class="card-text text-start"><small class="text-muted">Belo Horizonte - Minas Gerais</small></p>
               <div class="d-flex justify-content-start align-items-center gap-3">
                 <div class="d-flex align-items-center">
                   <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="1">
@@ -82,7 +82,7 @@
             <img src="img/frangocomquiabo.jpg" class="card-img-top" alt="Frango com Quiabo">
             <div class="card-body">
               <h5 class="card-title text-start">Frango com Quiabo</h5>
-              <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
+              <p class="card-text text-start"><small class="text-muted">Governador Valadares - Minas Gerais</small></p>
               <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
                 <div class="d-flex align-items-center">
                   <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="2">
@@ -109,7 +109,7 @@
             <img src="img/tropiro.jfif" class="card-img-top" alt="Feijão Tropeiro">
             <div class="card-body">
               <h5 class="card-title text-start">Feijão Tropeiro</h5>
-              <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Minas Gerais</small></p>
+              <p class="card-text text-start"><small class="text-muted">Ipatinga - Minas Gerais</small></p>
               <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
                 <div class="d-flex align-items-center">
                   <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="3">
@@ -136,7 +136,7 @@
             <img src="img/acaraje.webp" class="card-img-top" alt="Acarajé">
             <div class="card-body">
               <h5 class="card-title text-start">Acarajé</h5>
-              <p class="card-text text-start"><small class="text-muted">Sabores da Terra - Bahia</small></p>
+              <p class="card-text text-start"><small class="text-muted">Salvador - Bahia</small></p>
               <div class="d-flex justify-content-start align-items-center gap-3 mb-2">
                 <div class="d-flex align-items-center">
                   <img src="img/liikee.png" width="24" class="interact-btn" data-type="like" data-post="4">
@@ -244,7 +244,7 @@
       senhaInput.classList.remove('is-invalid');
 
       // Validação simples
-      if (email !== "emily123@gmail.com.br") {
+      if (email !== "user123@gmail.com") {
         emailInput.classList.add('is-invalid');
         erro = true;
       }
@@ -256,15 +256,15 @@
       if (!erro) {
         isLoggedIn = true;
         document.getElementById('login-error').style.display = 'none';
-
-        // Atualiza o perfil com nome e imagem da usuária
         document.getElementById('perfil-img').src = "img/Emily Menezes.jfif";
         document.getElementById('perfil-nome').textContent = "Emily Menezes";
-
-        // Esconde o botão "Entrar"
-        document.getElementById('login-btn').style.display = 'none';
-
-        // Fecha o modal corretamente
+        // Botão vira "Sair"
+        const loginBtn = document.getElementById('login-btn');
+        loginBtn.textContent = 'Sair';
+        loginBtn.onclick = logout;
+        loginBtn.removeAttribute('data-bs-toggle');
+        loginBtn.removeAttribute('data-bs-target');
+        // Fecha o modal
         const modal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
         modal.hide();
         atualizarLikesDislikesGerais();
@@ -378,7 +378,8 @@
       document.getElementById('total-dislikes').textContent = totalDislikes;
     }
 
-    // Função para gerenciar interações
+    let userVotes = {}; // Armazena votos do usuário por postId
+
     function handleInteraction(event) {
       if (!isLoggedIn) {
         // Exibe o modal se o usuário não estiver logado
@@ -388,16 +389,45 @@
 
       const postId = event.target.dataset.post;
       const type = event.target.dataset.type;
-      const countElement = document.getElementById(`${type}-count-${postId}`);
 
-      let count = parseInt(countElement.textContent);
+      if (!userVotes[postId]) userVotes[postId] = { like: false, dislike: false };
+
       if (type === 'like') {
-        count++;
+        const likeCount = document.getElementById(`like-count-${postId}`);
+        const dislikeCount = document.getElementById(`dislike-count-${postId}`);
+        if (userVotes[postId].like) {
+          // Remove o like
+          userVotes[postId].like = false;
+          likeCount.textContent = Math.max(0, parseInt(likeCount.textContent) - 1);
+        } else {
+          // Adiciona o like
+          userVotes[postId].like = true;
+          likeCount.textContent = parseInt(likeCount.textContent) + 1;
+          // Se tinha dislike, remove
+          if (userVotes[postId].dislike) {
+            userVotes[postId].dislike = false;
+            dislikeCount.textContent = Math.max(0, parseInt(dislikeCount.textContent) - 1);
+          }
+        }
       } else if (type === 'dislike') {
-        count--;
+        const likeCount = document.getElementById(`like-count-${postId}`);
+        const dislikeCount = document.getElementById(`dislike-count-${postId}`);
+        if (userVotes[postId].dislike) {
+          // Remove o dislike
+          userVotes[postId].dislike = false;
+          dislikeCount.textContent = Math.max(0, parseInt(dislikeCount.textContent) - 1);
+        } else {
+          // Adiciona o dislike
+          userVotes[postId].dislike = true;
+          dislikeCount.textContent = parseInt(dislikeCount.textContent) + 1;
+          // Se tinha like, remove
+          if (userVotes[postId].like) {
+            userVotes[postId].like = false;
+            likeCount.textContent = Math.max(0, parseInt(likeCount.textContent) - 1);
+          }
+        }
       }
 
-      countElement.textContent = count;
       atualizarLikesDislikesGerais();
     }
 
@@ -408,6 +438,27 @@
 
     // Adicionando o evento do botão de login
     document.getElementById('login-btn-submit').addEventListener('click', handleLogin);
+
+    function logout() {
+      isLoggedIn = false;
+      // Volta nome e imagem do perfil para a empresa
+      document.getElementById('perfil-img').src = "img/logo_sabor_do_brasil.png";
+      document.getElementById('perfil-nome').textContent = "Sabor do Brasil";
+      // Volta os likes/dislikes gerais para o valor inicial
+      document.getElementById('total-likes').textContent = "9";
+      document.getElementById('total-dislikes').textContent = "12";
+      // Volta o texto do botão para "Entrar"
+      const loginBtn = document.getElementById('login-btn');
+      loginBtn.textContent = 'Entrar';
+      loginBtn.onclick = null;
+      loginBtn.setAttribute('data-bs-toggle', 'modal');
+      loginBtn.setAttribute('data-bs-target', '#loginModal');
+      // Opcional: Limpa comentários e reseta contadores de comentários dos posts
+      for (let i = 1; i <= 4; i++) {
+        document.getElementById(`comments-${i}`).innerHTML = "";
+        document.getElementById(`comment-count-${i}`).textContent = i === 1 ? "5" : i === 2 ? "8" : "8";
+      }
+    }
   </script>
 </body>
 </html>
